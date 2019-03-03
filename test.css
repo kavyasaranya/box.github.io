@@ -1,0 +1,87 @@
+.box {
+  background:red;
+  width: 100px;
+  height: 100px  ;
+
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  animation:thambu 2s 5;
+
+}.box2 {
+  background:blue;
+  width: 100px;
+  height: 100px  ;
+
+  position:absolute;
+  right: 0px;
+  top: 0px;
+  animation:saro 2s 5;
+
+}.box3 {
+  background:green;
+  width: 100px;
+  height: 100px  ;
+
+  position:absolute;
+  left: 0px;
+  bottom: 0px;
+  animation:sofi 2s 5;
+}.box4 {
+  background:orange;
+  width: 100px;
+  height: 100px  ;
+
+  position:absolute;
+  bottom: 0px;
+  right: 0px;
+  animation:pravi 2s 5;
+
+}.box5 {
+  background:yellow;
+  width: 100px;
+  height: 100px  ;
+
+  position:absolute;
+  right: 50%;
+  top:50%;
+  border-radius:50%;
+  margin-top:-15px;
+  margin-right:-15px;
+  animation:kavu 2s 5;
+
+}
+@keyframes thambu{
+  from {left:0%}
+  to{left:100%}
+}@keyframes saro{
+  from {right:0%}
+  to{right:100%}
+}@keyframes kavu{
+  from {right:0%}
+  to{right:50%}
+}@keyframes sofi{
+  from {left:0%}
+  to{left:100%}
+}
+@keyframes pravi{
+  from {right:0%}
+  to{right:100%}
+}
+@media screen and (max-width:480px){
+  div.box5 {
+  background:violet;
+  width: 100px;
+  height: 100px;  ;
+
+  position:absolute;
+  right: 50%;
+  top:50%;
+  border-radius:50%;
+  margin-top:-15px;
+  margin-right:-15px;
+  animation:kavu 2s 5;
+
+}
+
+}
